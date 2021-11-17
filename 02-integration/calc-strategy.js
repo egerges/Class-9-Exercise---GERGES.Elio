@@ -21,5 +21,5 @@ try {
     module.exports = calcStrategy;
     
 } catch (error) {
-    throw new Error(`Error: ${error} | file: calc-strategy.js`);
+    throw new Error(`Error: ${error.message} | file: calc-strategy.js`);
 }
