@@ -52,7 +52,7 @@ try {
   var result = product();
   if (result !== 0) throw new Error('Expected product() to be 0. Received: ' + result);
 
-  console.log('All tests passed successfully.');
+  console.log('*** 03-product: All tests passed successfully.');
 
 // ==================================================
 // PRINT ERRORS

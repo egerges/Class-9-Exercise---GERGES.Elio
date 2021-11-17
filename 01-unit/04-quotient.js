@@ -53,7 +53,7 @@ try {
   var result = quotient();
   if (result !== 0) throw new Error('Expected quotient() to be 0. Received: ' + result);
 
-  console.log('All tests passed successfully.');
+  console.log('*** 04-quotient: All tests passed successfully.');
 
 // ==================================================
 // PRINT ERRORS

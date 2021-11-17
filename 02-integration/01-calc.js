@@ -53,7 +53,7 @@ try {
     // Do nothing, test has passed.
   }
 
-  console.log('All tests passed successfully.');
+  console.log('* 01-calc: All tests passed successfully.');
 
 // ==================================================
 // PRINT ERRORS
