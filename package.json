@@ -4,10 +4,10 @@
   "description": "## Introduction This repository contains the starter files for the 'Introduction to Testing' exercise.",
   "main": "index.js",
   "scripts": {
-    "unit-test-01-sum": "nodemon ./01-unit/01-sum.js",
-    "unit-test-01-difference": "nodemon ./01-unit/02-difference.js",
-    "unit-test-01-product": "nodemon ./01-unit/03-product.js",
-    "unit-test-01-quotient": "nodemon ./01-unit/04-quotient.js"
+    "unit-test-01-sum": "node ./01-unit/01-sum.js",
+    "unit-test-01-difference": "node ./01-unit/02-difference.js",
+    "unit-test-01-product": "node ./01-unit/03-product.js",
+    "unit-test-01-quotient": "node ./01-unit/04-quotient.js"
   },
   "repository": {
     "type": "git",
