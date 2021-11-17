@@ -7,7 +7,8 @@
     "unit-test-01-sum": "node ./01-unit/01-sum.js",
     "unit-test-01-difference": "node ./01-unit/02-difference.js",
     "unit-test-01-product": "node ./01-unit/03-product.js",
-    "unit-test-01-quotient": "node ./01-unit/04-quotient.js"
+    "unit-test-01-quotient": "node ./01-unit/04-quotient.js",
+    "unit-test-02-integration-01-calc": "node ./02-integration/01-calc.js"
   },
   "repository": {
     "type": "git",
