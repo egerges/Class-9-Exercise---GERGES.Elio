@@ -1,0 +1,26 @@
+{
+  "name": "class-9-exercise---gerges.elio",
+  "version": "1.0.0",
+  "description": "## Introduction This repository contains the starter files for the 'Introduction to Testing' exercise.",
+  "main": "index.js",
+  "scripts": {
+    "unit-test-01-sum": "nodemon ./01-unit/01-sum.js",
+    "unit-test-01-difference": "nodemon ./01-unit/02-difference.js",
+    "unit-test-01-product": "nodemon ./01-unit/03-product.js",
+    "unit-test-01-quotient": "nodemon ./01-unit/04-quotient.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egerges/Class-9-Exercise---GERGES.Elio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egerges/Class-9-Exercise---GERGES.Elio/issues"
+  },
+  "homepage": "https://github.com/egerges/Class-9-Exercise---GERGES.Elio#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
