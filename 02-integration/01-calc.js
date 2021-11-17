@@ -32,16 +32,26 @@ try {
   // Test Case 3
   // --------------------------------------------------
   // It should return the correct product when the user provides: 'multiply', 9, 9.
+  var result = calc('multiply', 9, 9);
+  if (result !== 81) throw new Error('Expected calc("multiply", 9, 9) to be 81. Received: ' + result);
 
   // --------------------------------------------------
   // Test Case 4
   // --------------------------------------------------
   // It should return the correct quotient when the user provides: 'divide', 9, 3.
+  var result = calc('divide', 9, 3);
+  if (result !== 3) throw new Error('Expected calc("divide", 9, 3) to be 3. Received: ' + result);
 
   // --------------------------------------------------
   // Test Case 5
   // --------------------------------------------------
   // It should return the message 'Operation not supported.' when the user provides: exponent, 2, 8.
+  try {
+    var result = calc('exponent', 2, 8);
+    throw new Error('Expected calc("exponent", 2, 8) to throw an Error. Received: ' + result);
+  } catch (error) {
+    // Do nothing, test has passed.
+  }
 
   console.log('All tests passed successfully.');
 
